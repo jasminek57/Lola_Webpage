@@ -7,6 +7,7 @@ body {
 }
 
 .bar{
+    border:0px;
     background-color: rgb(204, 192, 175);
     display:flex;
     list-style: none;
@@ -60,7 +61,7 @@ li {
     margin: auto;
 }
 
-/*figure out how to get rid of link color and make nav bar screen encompassing*/
+/*figure out how to get rid of link color and make nav bar screen encompassing ad make code neater*/
 #contact a:link{
     color: rgb(54, 37, 17); 
 }
