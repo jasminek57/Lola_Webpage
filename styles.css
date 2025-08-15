@@ -1,18 +1,31 @@
 body {
     margin-left: 33%;
     margin-right: 33%;
-    margin-top: 50px;
     background-color: rgb(241, 236, 229);
     margin-bottom: 100px;
     font-family:Helvetica;
 }
 
-button {
-    border-color: 4px solid;
-    background-color: rgb(238, 223, 203);
-    color: rgb(54, 37, 17);  
-    margin-left:20px;
-    
+.bar{
+    background-color: rgb(204, 192, 175);
+    display:flex;
+    list-style: none;
+    padding-left:0px;
+    margin-top: 0px;
+}
+
+.nav a{
+    color: rgb(54, 37, 17); 
+    display:flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 1em 1em;
+    line-height: normal;
+    font-size: 16px;
+
+}
+.nav a:hover{
+    background-color: antiquewhite;
 }
 
 .head {
@@ -45,4 +58,9 @@ li {
 #logo {
     display: block;
     margin: auto;
+}
+
+/*figure out how to get rid of link color and make nav bar screen encompassing*/
+#contact a:link{
+    color: rgb(54, 37, 17); 
 }
