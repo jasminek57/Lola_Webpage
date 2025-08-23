@@ -1,28 +1,33 @@
 body {
-    margin-left: 33%;
-    margin-right: 33%;
     background-color: rgb(241, 236, 229);
     margin-bottom: 100px;
     font-family:Helvetica;
+    color: rgb(54, 37, 17); 
+}
+
+.main{
+    margin: 0px 25%;
+    display: block;  
 }
 
 .bar{
     border:0px;
     background-color: rgb(204, 192, 175);
-    display:flex;
     list-style: none;
     padding-left:0px;
     margin-top: 0px;
+    display:flex; 
+    flex-direction: horizontal;
 }
 
 .nav a{
-    color: rgb(54, 37, 17); 
-    display:flex;
     list-style: none;
     text-decoration: none;
     padding: 1em 1em;
     line-height: normal;
     font-size: 16px;
+    color: rgb(54, 37, 17); 
+    display:flex;
 
 }
 .nav a:hover{
@@ -39,7 +44,6 @@ body {
     border-radius:25px;
     padding: 20px;
     background-color: rgb(238, 223, 203);
-    color: rgb(54, 37, 17);  
     margin: 20px;
 }
 
@@ -61,7 +65,4 @@ li {
     margin: auto;
 }
 
-/*figure out how to get rid of link color and make nav bar screen encompassing ad make code neater*/
-#contact a:link{
-    color: rgb(54, 37, 17); 
-}
+/*figure out how to change link color for email and mprevent nav bar from changing size through different pages and get rid of its top margin*/
